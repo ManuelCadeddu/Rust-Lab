@@ -2,83 +2,74 @@ use std::fs::{File};
 use std::io::Read;
 use clap::{Arg, Command};
 
-enum data_struct {
+#[derive(Debug)]
 
-        ValueStruct { val: f32, timestamp: i32 },     
-        MValueStruct { val: [f32; 10], timestamp: i32 },
-        MessageStruct { message: [char; 21] } ,
+enum DataStruct {
+
+    ValueStruct { data_type: i32, val: f32, timestamp: i32 },     
+    MValueStruct { data_type: i32, val: [f32; 10], timestamp: i32 },
+    MessageStruct { data_type: i32, message: [char; 21] }
 }
 
 struct CData {
 
     data_type: i32,
-    values: data_struct,
+    values: DataStruct,
 }
 
 impl CData {
 
-    fn from_file(file: &mut File) {
+    fn from_file(file: &mut File) -> CData {
 
-        let mut buffer: [u8; 4] = [0; 4];
+        let mut buffer: [u8; 52] = [0; 52];
         
-        file.read_exact(&mut buffer);
+        file.read_exact(&mut buffer).expect("Error reading from file");
 
-        let data_type = u32::from_le_bytes(buffer);
+        let data_type = i32::from_le_bytes((&buffer[4..8]).try_into().unwrap());
 
-        match data_type {
+        let values = match data_type {
 
             1 => {
-                let mut buffer: [u8; 4] = [0; 4];
-                let mut buffer_scarto: [u8; 36] = [0; 36];
-                
-                println!("ValueStruct");
-                file.read_exact(&mut buffer);
-                println!("\ttype: {}", u32::from_le_bytes(buffer));
-                file.read_exact(&mut buffer);
-                println!("\tval: {}", f32::from_le_bytes(buffer));
-                file.read_exact(&mut buffer);
-                println!("\ttimestamp: {}", u32::from_le_bytes(buffer));
-                file.read_exact(&mut buffer_scarto);
-            },
-            2 => {
-                println!("MValueStruct");
 
-                let mut buffer: [u8; 4] = [0; 4];
-
-                // read exactly 52 bytes (ExportData struct dimension)
-                file.read_exact(&mut buffer);
-                println!("\ttype: {}", u32::from_le_bytes(buffer));
-                for i in 0..10 {
-                    file.read_exact(&mut buffer);
-                    println!("\tval[{}]: {}", i, f32::from_le_bytes(buffer));
+                DataStruct::ValueStruct {
+                    data_type: data_type,
+                    val: f32::from_le_bytes((&buffer[8..12]).try_into().unwrap()),
+                    timestamp: i32::from_le_bytes((&buffer[12..16]).try_into().unwrap()),
                 }
-                file.read_exact(&mut buffer);
-                println!("\ttimestamp: {}", u32::from_le_bytes(buffer));
-            },
+            
+            }
+            2 => {
+
+                DataStruct::MValueStruct {
+                    data_type: data_type,
+                    val: {
+                        let mut val = [0.0; 10];
+                        for i in 0..10 {
+                            val[i] = f32::from_le_bytes((&buffer[8 + i * 4..12 + i * 4]).try_into().unwrap());
+                        }
+                        val
+                    },
+                    timestamp: i32::from_le_bytes((&buffer[48..52]).try_into().unwrap()),
+                }
+            }
             3 => {
-                
-                println!("MesssageStruct");
+                DataStruct::MessageStruct {
+                    data_type: data_type,
+                    message: {
+                        let mut message = ['\0'; 21];
+                        for i in 0..21 {
+                            message[i] = buffer[8 + i] as char;
+                        }
+                        message
+                    },
+                }
+            }
+            _ => panic!("Unknown data type"),
+        };
 
-                let mut buffer: [u8; 4] = [0; 4];
-                let mut buffer_str: [u8; 21] = [0; 21];
-                let mut buffer_scarto: [u8; 23] = [0; 23]; //comprende lo '/0'
-
-                // read exactly 52 bytes (ExportData struct dimension)
-                file.read_exact(&mut buffer);
-                println!("\ttype: {}", u32::from_le_bytes(buffer));
-                //for i in 0..20 {
-                    file.read_exact(&mut buffer_str);
-                    println!("\tmessage: {}", String::from_utf8_lossy(&buffer_str));
-                //}
-                file.read_exact(&mut buffer_scarto);
-
-            },
-            _ => println!("Errore"),
-        }
+        CData { data_type, values }
     }
 }
-
-
 
 fn main() {
     
@@ -111,11 +102,15 @@ fn main() {
         };*/
 
         // Lettura del file
-        let c_data: Vec<CData> = Vec::new();
+        let mut c_data: Vec<CData> = Vec::new();
         
         for i in 0..100 {  
             c_data.push(CData::from_file(&mut file));
         }
 
+        for val in c_data {
+            println!("{}", val.data_type);
+            println!("{:?}", val.values);
+        }
     }
 }
