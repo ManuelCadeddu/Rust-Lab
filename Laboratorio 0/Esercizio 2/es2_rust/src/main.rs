@@ -22,24 +22,21 @@ impl CData {
     fn from_file(file: &mut File) -> CData {
 
         let mut buffer: [u8; 52] = [0; 52];
-        
-        file.read_exact(&mut buffer).expect("Error reading from file");
 
+        file.read_exact(&mut buffer).expect("Error reading from file");
+       
         let data_type = i32::from_le_bytes((&buffer[4..8]).try_into().unwrap());
 
         let values = match data_type {
 
             1 => {
-
                 DataStruct::ValueStruct {
                     data_type: data_type,
                     val: f32::from_le_bytes((&buffer[8..12]).try_into().unwrap()),
                     timestamp: i32::from_le_bytes((&buffer[12..16]).try_into().unwrap()),
                 }
-            
             }
             2 => {
-
                 DataStruct::MValueStruct {
                     data_type: data_type,
                     val: {
@@ -103,13 +100,12 @@ fn main() {
 
         // Lettura del file
         let mut c_data: Vec<CData> = Vec::new();
-        
-        for i in 0..100 {  
+
+        for _i in 0..100 {  
             c_data.push(CData::from_file(&mut file));
         }
 
         for val in c_data {
-            println!("{}", val.data_type);
             println!("{:?}", val.values);
         }
     }
