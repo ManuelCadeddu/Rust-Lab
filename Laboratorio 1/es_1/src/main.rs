@@ -1,6 +1,6 @@
 extern crate clap;
 use clap::{Arg, Command};
-use std::mem;
+//use std::mem;
 
 const SUBS_I: &str = "àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìıİłḿñńǹňôöòóœøōõőṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż";
 const SUBS_O: &str = "aaaaaaaaaacccddeeeeeeeegghiiiiiiiilmnnnnoooooooooprrsssssttuuuuuuuuuwxyyzzz";
@@ -8,7 +8,6 @@ const SUBS_O: &str = "aaaaaaaaaacccddeeeeeeeegghiiiiiiiilmnnnnoooooooooprrssssst
 fn slugify(s: &str) -> String {
 
     let mut s_conv = String::new();
-    let flag = false;
 
     for c in s.chars() {
         let x = conv(c);

@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../../:\Users\simon\Desktop\POLITECNICO\1ANNO\2_SEMESTRE\Programmazione di sistema\Malnati\Lab\Rust-Lab\Laboratorio 1\es_1\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
