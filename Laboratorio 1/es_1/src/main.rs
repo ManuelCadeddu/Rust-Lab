@@ -2,6 +2,6 @@
 
 fn main() {
 
-    gigi
+    gigi pirla
 }
 
