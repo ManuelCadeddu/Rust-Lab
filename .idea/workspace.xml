@@ -9,13 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/Rust-Lab/FileContentIndex/2e92ddc0-8363-4adc-bf3a-9abb33c9f303.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Rust-Lab/FileContentIndex/fb8bb4bd-4495-4c2a-8a01-eca5acad5172.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Rust-Lab/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Rust-Lab/v17/.wsuo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Xhx4rDmWQTDaxosLkVU9uxr6Ny" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,9 +38,18 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "last_opened_file_path": "C:/Users/manuc/Desktop/Manuel/Poli/Programmazione di Sistema/Rust-Lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,10 +59,22 @@
       <option name="presentableId" value="Default" />
       <updated>1699094924864</updated>
       <workItem from="1699094925825" duration="9000" />
+      <workItem from="1699367863893" duration="315000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
