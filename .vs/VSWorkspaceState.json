@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Laboratorio 0",
     "\\Laboratorio 0\\Esercizio 2",
     "\\Laboratorio 0\\Esercizio 2\\es2_c",
     "\\Laboratorio 0\\Esercizio 2\\es2_rust",
-    "\\Laboratorio 0\\Esercizio 2\\es2_rust\\src"
+    "\\Laboratorio 0\\Esercizio 2\\es2_rust\\src",
+    "\\Laboratorio 1",
+    "\\Laboratorio 1\\es_1",
+    "\\Laboratorio 1\\es_1\\src"
   ],
-  "SelectedNode": "\\Laboratorio 0\\Esercizio 2\\es2_c\\file_es2",
+  "SelectedNode": "\\Laboratorio 1\\es_1\\src\\main.rs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,1 @@
+C:\Users\manuc\Desktop\Manuel\Poli\Programmazione\ di\ Sistema\Rust-Lab\Laboratorio\ 1\es_1\target\debug\es_1.exe: C:\Users\manuc\Desktop\Manuel\Poli\Programmazione\ di\ Sistema\Rust-Lab\Laboratorio\ 1\es_1\src\main.rs
