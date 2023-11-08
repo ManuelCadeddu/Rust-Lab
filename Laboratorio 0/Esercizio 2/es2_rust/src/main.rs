@@ -36,7 +36,7 @@ impl CData {
     fn from_file(file: &mut File) -> CData {
         let mut buffer: [u8; 52] = [0; 52];
 
-        // La funzione 'expect' serve per gestire gli errori in modo esplicito quando si lavora con Result o Option
+        // La funzione 'expect' gestisce gli errori in modo esplicito (per Result e Option)
         file.read_exact(&mut buffer).expect("Error reading from file");
 
         // Il tratto TryInto consente la conversione tra tipi di dato. Per farlo si usa il metodo try_into, che rende un Result
