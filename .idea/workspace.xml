@@ -12,7 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Laboratorio 1/robot simulator/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="" />
+    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="poi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +72,15 @@
       <workItem from="1699094925825" duration="9000" />
       <workItem from="1699367863893" duration="315000" />
     </task>
+    <task id="LOCAL-00001" summary="poi">
+      <option name="closed" value="true" />
+      <created>1699546014183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699546014183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="poi" />
+    <option name="LAST_COMMIT_MESSAGE" value="poi" />
   </component>
 </project>
