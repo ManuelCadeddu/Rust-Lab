@@ -61,7 +61,7 @@
     "org.rust.hideNoCargoProjectNotificationsC:/Users/simon/Desktop/POLITECNICO/1ANNO/2_SEMESTRE/Programmazione di sistema/Malnati/Lab/Rust-Lab/Laboratorio 1/es_1/tests/tests.rs": "true",
     "vue.rearranger.settings.migration": "true"
   }
-}]]></component>
+}</component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -87,7 +87,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Manu" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
