@@ -9,7 +9,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="" />
+    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/target/debug/es_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/target/debug/es_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/tests/tests.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/tests/tests.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +25,15 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="n97jvz8b" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -37,13 +51,14 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/manuc/Desktop/Manuel/Poli/Programmazione di Sistema/Rust-Lab",
+    "last_opened_file_path": "C:/Users/simon/Desktop/POLITECNICO/1ANNO/2_SEMESTRE/Programmazione di sistema/Malnati/Lab/Rust-Lab",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.hideNoCargoProjectNotificationsC:/Users/simon/Desktop/POLITECNICO/1ANNO/2_SEMESTRE/Programmazione di sistema/Malnati/Lab/Rust-Lab/Laboratorio 1/es_1/tests/tests.rs": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +75,7 @@
       <updated>1699094924864</updated>
       <workItem from="1699094925825" duration="9000" />
       <workItem from="1699367863893" duration="315000" />
+      <workItem from="1699544624438" duration="425000" />
     </task>
     <servers />
   </component>

@@ -11,5 +11,11 @@ fn test_accented_characters() {
 
 #[test]
 fn test_invalid_characters() {
-    assert_eq!(slugify("???(   )&&     "), "-");
+    assert_eq!(slugify("&///)"), "-");
 }
+
+#[test]
+fn test_empty_string() { assert_eq!(slugify(" "), "-"); }
+
+#[test]
+fn test_invalid_characters_and_space() { assert_eq!(slugify("???( ciao  )&&     "), "-ciao"); }
