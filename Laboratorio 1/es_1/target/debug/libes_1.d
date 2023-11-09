@@ -1,0 +1,1 @@
+C:\Users\manuc\Desktop\Manuel\Poli\Programmazione\ di\ Sistema\rust-labs\Rust-Lab\Laboratorio\ 1\es_1\target\debug\libes_1.rlib: C:\Users\manuc\Desktop\Manuel\Poli\Programmazione\ di\ Sistema\rust-labs\Rust-Lab\Laboratorio\ 1\es_1\src\lib.rs C:\Users\manuc\Desktop\Manuel\Poli\Programmazione\ di\ Sistema\rust-labs\Rust-Lab\Laboratorio\ 1\es_1\src\slug.rs
