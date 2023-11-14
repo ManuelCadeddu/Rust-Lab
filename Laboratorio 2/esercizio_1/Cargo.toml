@@ -1,0 +1,22 @@
+[package]
+name = "esercizio_1"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Federico Maffeo <s296866@studenti.polito.it>, Manuel Cadeddu <s295243@studenti.polito.it>, Simone De Stefano <sCAZZI@studenti.polito.it>"]
+
+description = "Esercizio 1 del secondo laboratorio di Programmazione di sistema"
+
+
+[[bin]]
+name = "producer"
+path = "src/producer.rs"
+
+[[bin]]
+name = "consumer"
+path = "src/consumer.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
