@@ -12,16 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Laboratorio 2/Esercizio_1/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Laboratorio 2/esercizio_1/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laboratorio 2/esercizio_1/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laboratorio 2/esercizio_1/src/consumer.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laboratorio 2/esercizio_1/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laboratorio 2/esercizio_1/src/producer.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Laboratorio 2/esercizio_1/src/sensor.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Rust-Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rust-Lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +106,7 @@
       <workItem from="1699969543219" duration="1042000" />
       <workItem from="1699970652861" duration="963000" />
       <workItem from="1699971702306" duration="5941000" />
-      <workItem from="1699977718425" duration="117000" />
+      <workItem from="1699977718425" duration="346000" />
     </task>
     <servers />
   </component>
