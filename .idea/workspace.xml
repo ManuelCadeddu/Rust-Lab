@@ -12,7 +12,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Laboratorio 2/Esercizio_1/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="" />
+    <list default="true" id="e351adce-724a-41d4-b1eb-50bc463a01fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/target/debug/es_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/target/debug/es_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio 1/es_1/tests/tests.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio 1/es_1/tests/tests.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +35,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="9c9pnyvb" />
+    <option name="directoryName" value="n97jvz8b" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -42,25 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maffe/Dropbox (Politecnico Di Torino Studenti)/Università/Rust prove/rust-main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.hideNoCargoProjectNotificationsC:/Users/maffe/Dropbox (Politecnico Di Torino Studenti)/Università/Rust prove/Git Labs/Rust-Lab/Laboratorio 2/Esercizio_1/src/main.rs&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/simon/Desktop/POLITECNICO/1ANNO/2_SEMESTRE/Programmazione di sistema/Malnati/Lab/Rust-Lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.hideNoCargoProjectNotificationsC:/Users/simon/Desktop/POLITECNICO/1ANNO/2_SEMESTRE/Programmazione di sistema/Malnati/Lab/Rust-Lab/Laboratorio 1/es_1/tests/tests.rs": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }</component>
   <component name="RecentsManager">
@@ -100,13 +109,7 @@
       <updated>1699094924864</updated>
       <workItem from="1699094925825" duration="9000" />
       <workItem from="1699367863893" duration="315000" />
-      <workItem from="1699546503836" duration="2052000" />
-      <workItem from="1699626361503" duration="237000" />
-      <workItem from="1699968615120" duration="903000" />
-      <workItem from="1699969543219" duration="1042000" />
-      <workItem from="1699970652861" duration="963000" />
-      <workItem from="1699971702306" duration="5941000" />
-      <workItem from="1699977718425" duration="346000" />
+      <workItem from="1699544624438" duration="425000" />
     </task>
     <servers />
   </component>
