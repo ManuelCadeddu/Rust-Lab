@@ -10,13 +10,29 @@ description = "Esercizio 1 del secondo laboratorio di Programmazione di sistema"
 
 [[bin]]
 name = "producer"
-path = "src/producer.rs"
+path = "src/bin/producer.rs"
 
 [[bin]]
 name = "consumer"
-path = "src/consumer.rs"
+path = "src/bin/consumer.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand = "0.8.5"
+
+[dependencies.bincode]
+version = "1.3.3"
+
+[dependencies.fcntl]
+version = "*"
+
+[dependencies.fslock]
+version = "*"
+
+[dependencies.libc]
+version = "*"
+
+[dependencies.serde]
+version = "1.0.160"
+features = ["derive"]
