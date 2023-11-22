@@ -8,7 +8,7 @@ fn main() {
     let mut buf = RingBuf::new("buffer.bin", 10);   //mi costruisco un buffer circolare di dimensione 10, che viene memorizzato nel file buffer.bin , l'abbiamo implementato noi in lib.rs
     let mut seq = 0;                            //variabile che mi tiene traccia del numero di sequenza  (è un contatore)
 
-    // usato per calcolare il tempo trascorso
+    // usato per calcolare il tempo trascorso dall'inizio del programma
     let start = Instant::now();
     loop {
         let mut all_data = Vec::new();
