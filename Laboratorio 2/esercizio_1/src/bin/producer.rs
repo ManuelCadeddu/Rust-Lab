@@ -17,7 +17,7 @@ fn main() {
         let data : SensorData = SensorData::data_generator();
 
         if let Some(_) = buf.write(data.clone()) {      //scrivo il dato nel buffer
-            println!("producer: wrote {}", seq);
+            println!("producer: wrote {}", seq);      //stampo il numero di sequenza
             println!("values : {:?}", data.values);
         } else {
             println!("producer: balls full");
